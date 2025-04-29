@@ -2,27 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vasanth Rao Challa | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #0a66c2; color: white; padding: 20px; text-align: center; }
+    nav { background: #f1f1f1; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #333; }
+    section { padding: 40px; }
+    h2 { color: #0a66c2; }
+    .projects, .skills, .achievements, .contact { margin-top: 40px; }
+    footer { text-align: center; padding: 20px; background: #0a66c2; color: white; }
+    .button { background: #0a66c2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-  </header>
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>This is where you can write about yourself.</p>
-    </section>
-    <section>
-      <h2>Projects</h2>
-      <p>Showcase your projects here.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
-  </footer>
+
+<header>
+  <h1>Vasanth Rao Challa</h1>
+  <p>Software Engineer Intern @ LinkedIn | Passionate about DSA, Web Development & ML</p>
+  <a href="#projects" class="button">View Projects</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm a third-year Mechanical Engineering student at NIT Warangal, pursuing a Minor in Computer Science.
+    Recently selected for a Software Engineer Internship at LinkedIn Bangalore.
+    Passionate about Data Structures, Algorithms, Web Development, and exploring Machine Learning.
+    Apart from coding, I'm a huge fan of movies and cricket!
+  </p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>C++, Python, SQL, HTML, CSS</li>
+    <li>Libraries: NumPy, Pandas, Seaborn</li>
+    <li>Concepts: DSA, OOPS, DBMS, OS</li>
+    <li>Tools: Git, GitHub</li>
+    <li>Soft Skills: Problem Solving, Adaptability, Time Management</li>
+  </ul>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <h3>BigInt Arithmetic Library</h3>
+  <p>Created a custom C++ class for handling extremely large integers with operator overloading for all major operations.</p>
+
+  <h3>Sorting Algorithm Visualizer</h3>
+  <p>Visualized Bubble Sort using <code>graphics.h</code> to make algorithms more intuitive for beginners.</p>
+
+  <h3>Inventory Management System</h3>
+  <p>Built a SQL-based system to manage product, supplier, and transaction records efficiently.</p>
+</section>
+
+<section id="achievements" class="achievements">
+  <h2>Achievements</h2>
+  <ul>
+    <li>Software Engineer Intern (Summer 2025) at LinkedIn Bangalore</li>
+    <li>Institute Merit Certificate (2022–23, 2023–24)</li>
+    <li>97.56 Percentile in JEE Mains</li>
+    <li>736 Rank in TS EAMCET 2022</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:cv22meb0b22@student.nitw.ac.in">cv22meb0b22@student.nitw.ac.in</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/vasanth-rao-challa-2b7583255" target="_blank">linkedin.com/in/vasanth-rao-challa-2b7583255</a></p>
+  <p>GitHub: <a href="https://github.com/vasanth2809" target="_blank">github.com/vasanth2809</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Vasanth Rao Challa | Built with ❤️</p>
+</footer>
+
 </body>
 </html>
